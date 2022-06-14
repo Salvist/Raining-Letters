@@ -46098,30 +46098,31 @@ A.d(this.e,"dropletSpawnTimer").b4(0)
 this.bk(0)},
 Cx(a){this.x=a.gaM(a).a
 this.y=a.gaM(a).b},
-R(a,b){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="trail"
-i.BW()
-s=i.r
-r=s.length
-q=t.cl
-p=J.Zz(r,q)
-for(o=t.U,n=0;n<r;++n){m=s[n]
-m=A.a([new A.fw(m.b,m.c,h,h,h,h,A.Sx(m.a,A.Lj(B.cg)),h)],o)
-l=A.d(s[n].f,g).a.length
-k=A.a(new Array(l),o)
-for(j=0;j<l;++j)k[j]=new A.fw(A.d(s[n].f,g).b[j],A.d(s[n].f,g).c[j],h,h,h,h,new A.q6(A.d(s[n].f,g).d[j],A.Sx(A.d(s[n].f,g).a[j],A.Lj(B.cg)),h),h)
-B.b.F(m,k)
-p[n]=new A.mJ(B.bn,B.bj,m,h)}s=A.ad(p,!0,q)
-m=i.w
-r=m.length
-p=J.Zz(r,q)
-for(n=0;n<r;++n){q=m[n]
-q=A.a([new A.fw(q.b,q.c,h,h,h,h,A.Sx(q.a,A.Lj(B.cg)),h)],o)
-l=A.d(m[n].f,g).a.length
-k=A.a(new Array(l),o)
-for(j=0;j<l;++j)k[j]=new A.fw(A.d(m[n].f,g).b[j],A.d(m[n].f,g).c[j],h,h,h,h,new A.q6(A.d(m[n].f,g).d[j],A.Sx(A.d(m[n].f,g).a[j],A.Lj(B.cg)),h),h)
-B.b.F(q,k)
-p[n]=new A.mJ(B.bn,B.bj,q,h)}B.b.F(s,p)
-return new A.qT(new A.ms(1/0,1/0,A.Zx(h,A.ZV(A.Ai(B.aK,s,B.bj),B.dm,h,h,i.gCw()),B.aV,!1,h,h,h,h,h,h,h,h,h,h,new A.VJ(i),h,h,h,h,h,h),h),h)},
+R(a,b){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="trail"
+h.BW()
+s=h.gCw()
+r=h.r
+q=r.length
+p=t.cl
+o=J.Zz(q,p)
+for(n=t.U,m=0;m<q;++m){l=r[m]
+l=A.a([new A.fw(l.b,l.c,g,g,g,g,A.Sx(l.a,A.Lj(B.cg)),g)],n)
+k=A.d(r[m].f,f).a.length
+j=A.a(new Array(k),n)
+for(i=0;i<k;++i)j[i]=new A.fw(A.d(r[m].f,f).b[i],A.d(r[m].f,f).c[i],g,g,g,g,new A.q6(A.d(r[m].f,f).d[i],A.Sx(A.d(r[m].f,f).a[i],A.Lj(B.cg)),g),g)
+B.b.F(l,j)
+o[m]=new A.mJ(B.bn,B.bj,l,g)}r=A.ad(o,!0,p)
+l=h.w
+q=l.length
+o=J.Zz(q,p)
+for(m=0;m<q;++m){p=l[m]
+p=A.a([new A.fw(p.b,p.c,g,g,g,g,A.Sx(p.a,A.Lj(B.cg)),g)],n)
+k=A.d(l[m].f,f).a.length
+j=A.a(new Array(k),n)
+for(i=0;i<k;++i)j[i]=new A.fw(A.d(l[m].f,f).b[i],A.d(l[m].f,f).c[i],g,g,g,g,new A.q6(A.d(l[m].f,f).d[i],A.Sx(A.d(l[m].f,f).a[i],A.Lj(B.cg)),g),g)
+B.b.F(p,j)
+o[m]=new A.mJ(B.bn,B.bj,p,g)}B.b.F(r,o)
+return new A.qT(new A.ms(1/0,1/0,A.Zx(g,A.ZV(A.Ai(B.aK,r,B.bj),B.dm,s,g,s),B.aV,!1,g,g,g,g,g,g,g,g,g,g,new A.VJ(h),g,g,g,g,g,g),g),g)},
 Sy(a){this.au(new A.VM(this))},
 Ps(a){var s=this
 if(s.r.length===s.f)a.b4(0)
@@ -46140,7 +46141,7 @@ $S:0}
 A.VM.prototype={
 $0(){var s,r,q,p,o,n,m="trail"
 for(s=this.a,r=s.r,q=r.length,p=t.w,o=0;o<r.length;r.length===q||(0,A.D)(r),++o){n=r[o]
-if(n.c>s.c.a_(p).f.a.a){n.c=0
+if(n.c>s.c.a_(p).f.a.b){n.c=0
 n.b=A.a5k(r,s.c.a_(p).f.a.a)}A.d(n.f,m).D(0,n)
 n.a=A.a04()
 n.c+=16}for(r=s.w,q=r.length,o=0;o<r.length;r.length===q||(0,A.D)(r),++o){n=r[o]
